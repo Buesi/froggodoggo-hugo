@@ -1,10 +1,10 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "froggodoggo"
+title = "Froggodoggo"
 theme = "kosmos"
 
 [params]
-  description = "Kosmos School creates a growing library of NGSS aligned science simulations in VR for your classroom." 
+  description = "Froggodoggo helps companies hire awesome founders who are looking for a side gig." 
 
 [permalinks]
   blog = "/blog/:slug"

@@ -1,12 +1,48 @@
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {{ $css := resources.Get "css/main.css" }}
 
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,500&display=swap" rel="stylesheet"> 
+
+  {{ $css := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
   
   <title>{{ .Site.Title }}</title>
    
   {{ $description := .Description }}
   <meta name="description" content="{{ $description | safeHTMLAttr }}" />
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://froggodoggo.com{{ .Permalink }}">
+  <meta property="twitter:url" content="https://froggodoggo.com{{ .Permalink }}">
+
+  {{ if .IsHome }}
+    <title>{{ .Site.Title }} - Hire Founders Looking for a Side Gig</title>
+    <meta name="title" content="{{ .Site.Title }} - Hire Founders Looking for a Side Gig">
+    <meta property="og:title" content="{{ .Site.Title }} - Hire Founders Looking for a Side Gig">
+    <meta property="twitter:title" content="{{ .Site.Title }} - Hire Founders Looking for a Side Gig">
+  {{ else }}
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta name="title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="twitter:title" content="{{ .Title }} - {{ .Site.Title }}">
+  {{ end }}
+
+  {{ if $description }}
+    <meta name="description" content="{{ $description | safeHTMLAttr }}" />
+    <meta property="og:description" content="{{ $description | safeHTMLAttr }}">
+    <meta property="twitter:description" content="{{ $description | safeHTMLAttr }}">
+  {{ else }}
+     <meta name="description" content="{{ .Site.Params.description }}">
+     <meta property="og:description" content="{{ .Site.Params.description }}">
+     <meta property="twitter:description" content="{{ .Site.Params.description }}">
+  {{ end}}
+
+
+	<meta property="og:image" content="/images/fd_logo.png">
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:image" content="/images/fd_logo.png">
+
 </head>
 

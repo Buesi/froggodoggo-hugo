@@ -1,1 +1,1 @@
-# kosmosschool-hugo
+# froggodoggo-hugo

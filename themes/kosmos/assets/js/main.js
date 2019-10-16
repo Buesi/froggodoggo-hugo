@@ -9,7 +9,7 @@ document.addEventListener('click', function (event) {
 	}
 
 	$("#applicationForm").submit(function(e) {
-		event.preventDefault();	
+		e.preventDefault();	
 
 	    var $form = $(this);
 	    $.post($form.attr("action"), $form.serialize()).then(function() {

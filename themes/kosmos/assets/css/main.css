@@ -341,6 +341,7 @@ a:hover {
 	box-sizing: border-box;
 	display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 	/*width: 200px;*/
 }
 

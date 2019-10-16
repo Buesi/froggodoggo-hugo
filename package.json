@@ -1,0 +1,11 @@
+{
+  "name": "kosmosschool-hugo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "postcss-cli": "^6.0.0",
+    "tailwindcss": "^0.6.5"
+  }
+}

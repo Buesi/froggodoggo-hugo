@@ -1,0 +1,98 @@
+{{ define "main" }}
+
+<div class="flex-container-13">
+  {{- partial "header.html" . -}}
+
+  <div class="flex-container-14">
+    <div class="flex-container-15">
+      
+      <h1>{{ .Title }}</h1>
+      <div class="text">We'll get back to you within 3 days. If we think that you're a fit, the next and final step will be a video call before we let you loose on Froggodogoo.</div>
+
+      <div class="flex-container-13-2">
+
+        <div id="hideLater">
+
+          <form name="preview" id="" class="flex-container-17">
+            <div class="flex-container-form-column">
+              <label class="text-1">Your Name</label>
+              <input type="text" name="name" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">Your Email</label>
+              <input type="email" name="email" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">Your Github</label>
+              <input type="url" name="github" class="form-field" />
+            </div> 
+            <div class="flex-container-form-column">
+              <label class="text-1">Your speciality:</label>
+                <select type="text" name="time" class="form-field">
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="full-stack">Full-stack</option>
+                  <option value="front-end">Front-end</option>
+                  <option value="back-end">Back-end</option>
+                  <option value="qa">QA</option>
+                  <option value=">ux-ui">UX/UI</option>
+                </select>
+            </div>   
+            <div class="flex-container-form-column">
+              <label class="text-1">Your startup's name</label>
+              <input type="text" name="startup name" class="form-field" />
+            </div>         
+            <div class="flex-container-form-column">
+              <label class="text-1">Your startup's website</label>
+              <input type="url" name="website" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">In 2-3 sentences, what does your startup do?</label>
+              <textarea type="text" name="startup" placeholder="Type.." class="form-field" rows="10" cols="30"></textarea>
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">How many users or customers do you have?</label>
+              <input type="text" name="users" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">As far as you can tell now, for how long do you want a side gig?</label>
+                <select type="text" name="time" class="form-field">
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="1 month">1 month</option>
+                  <option value="2-3 months">2 - 3 months</option>
+                  <option value="4-6 months">4 - 6 months</option>
+                  <option value="7-12 months">7 - 12 months</option>
+                  <option value=">12 months">more than 12 months</option>
+                </select>
+            </div>           
+            <div class="flex-container-form-column">
+              <label class="text-1">Ideally, how much would you work on your side gig?</label>
+                <select type="text" name="time" class="form-field">
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="1 day a week">1 day/week</option>
+                  <option value="2 days a week">2 days/week</option>
+                  <option value="3 days a week">3 days/week</option>
+                  <option value="4 days a week">4 days/week</option>
+                  <option value="5 days a week">5 days/week</option>
+                </select>
+            </div>   
+
+            <div class="flex-container-18">
+            <button type="submit" class="button" id="formButton">Send Application</button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+        <div id="confirmation" class="invisible">
+          <div class="text-header">Thanks for taking the time to apply!</div>
+          <video autoplay loop class="video">
+            <source src="/images/giphy.mp4" type="video/mp4"/>
+          </video>
+        </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+

@@ -1,0 +1,22 @@
+<footer class="flex-container-footer">
+    <div>
+     <span class="a_no_hover">hello@froggodoggo.com</span> 
+     <!-- • <a href="https://twitter.com/froggodoggo" class="flex-container-5" target="_blank">Twitter</a> -->
+    </div>
+  	<div class="">
+    	<div class="">
+      {{ range .Site.Menus.footer }}
+        <a href={{ .URL }} class="flex-container-5">
+          {{ .Title }}
+        </a>
+      {{ end }}
+    	</div>   
+  	</div>
+  	<div>
+      <span class="a_no_hover">&copy; {{ now.Format "2006"}} Humbot Inc. </span>
+    </div>
+</footer>
+ {{ $js := resources.Get "js/main.js" }}
+  <script src="{{ $js.Permalink }}"></script> 
+</body>
+</html>

@@ -1,0 +1,10 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "froggodoggo"
+theme = "kosmos"
+
+[params]
+  description = "Kosmos School creates a growing library of NGSS aligned science simulations in VR for your classroom." 
+
+[permalinks]
+  blog = "/blog/:slug"

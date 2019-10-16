@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<div class="flex-container-13">
+
+  {{- partial "header.html" . -}}
+  <div class="flex-container-14">
+    <div class="flex-container-15">  
+      <h1>{{ .Params.inpage_title }}</h1>
+
+        {{ .Content }}
+        <div class="text">Froggodoggo let's you select from a pre-screened pool of founders who are looking for a side gig. You can apply and search for free.</div>
+      <div class="flex-container-18">
+        <a href="/company/apply" class="button">Apply as a Company</a> 
+      </div>
+        <div class="text-header">Pricing</div>
+        <div class="text">We'll charge a refundable $300 matching fee once you found your dream candidate. We take care of all admin and legal stuff so it's super easy for you. For that we charge an ongoing fee which amounts to 3% of the monthly salary you are paying.</div>
+    </div>
+  </div>
+
+  <div class="flex-container-10">
+      <div class="flex-container-9-3">
+        <div class="flex-container-12">
+          <div class="image">
+            <img src="/images/fd_founders.png" class="logo_2">
+          </div>
+          <h2>Founders founders founders</h2>
+          <p>Some of the greatest people we know are founders. They are self-starters, think differently, and have an inherent drive to deliver quality. Founders don't only do the bare minimum, but genuinely want to make great things.</p>
+        </div>
+        <div class="flex-container-12">
+          <div class="image">
+            <img src="/images/fd_simple.png" class="logo_2">
+          </div>
+          <h2>Simple as a fox</h2>
+          <p>That's not an actual expression, but it should be and you know what we mean. When you want to hire a great new engineer, just filter and browse thorugh our database, interview the candidates you want, and pay us their monthly salary. We'll forward to them (we swear). We take care of all admin and legal things.</p>
+        </div> 
+        <div class="flex-container-12">
+          <div class="image">
+            <img src="/images/fd_fair_wages.png" class="logo_2">
+          </div>
+          <h2>Super fair costs</h2>
+          <p>We think most platforms charge too much money and can be intransparent. We're upfront and fair: We'll charge you a one-time matching fee of $300, which you'll get refunded if you don't end up hiring the candidate. Additionally, we charge a monthly fee to cover our support and admin expenses, which amounts to 3% of the monthly salary you pay through Froggodoggo.</p>
+        </div>       
+      </div>
+    </div>
+  </div>
+
+</div>
+{{ end }}

@@ -1,0 +1,12 @@
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {{ $css := resources.Get "css/main.css" }}
+
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+  
+  <title>{{ .Site.Title }}</title>
+   
+  {{ $description := .Description }}
+  <meta name="description" content="{{ $description | safeHTMLAttr }}" />
+</head>
+

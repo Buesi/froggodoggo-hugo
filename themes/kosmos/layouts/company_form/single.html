@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<div class="flex-container-13">
+  {{- partial "header.html" . -}}
+
+  <div class="flex-container-14">
+    <div class="flex-container-15">
+      
+      <h1>{{ .Title }}</h1>
+      <div class="text-header">Get Early Access</div>
+      <div class="text">We're working hard to build an awesome founder pool for you. We already accept company applications, but you'll need to wait a few weeks to start browsing candidates. We'll get back to you within 3 days regarding your application.</div>
+
+      <div class="flex-container-13-2">
+
+        <div id="hideLater">
+          
+          <form name="preview" id="" class="flex-container-17">
+            <div class="flex-container-form-column">
+              <label class="text-1">Company Name</label>
+              <input type="text" name="company" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">Your Name</label>
+              <input type="text" name="name" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">Your Email</label>
+              <input type="email" name="email" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">Website</label>
+              <input type="url" name="website" class="form-field" />
+            </div>
+            <div class="flex-container-form-column">
+              <label class="text-1">What are you looking primarily for?</label>
+                <select type="text" name="time" class="form-field">
+                  <option disabled selected value> -- select an option -- </option>
+                  <option value="full-stack">Full-stack</option>
+                  <option value="front-end">Front-end</option>
+                  <option value="back-end">Back-end</option>
+                  <option value="qa">QA</option>
+                  <option value=">ux-ui">UX/UI</option>
+                </select>
+            </div>   
+
+            <div class="flex-container-18">
+            <button type="submit" class="button" id="formButton">Send Application</button>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+        <div id="confirmation" class="invisible">
+          <div class="text-header">Thanks for taking the time to apply!</div>
+          <video autoplay loop class="video">
+            <source src="/images/giphy.mp4" type="video/mp4"/>
+          </video>
+        </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}
+

@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<div class="flex-container-13">
+
+  {{- partial "header.html" . -}}
+  <div class="flex-container-14">
+    <div class="flex-container-15">  
+      <h1>{{ .Params.inpage_title }}</h1>
+
+        {{ .Content }}
+        <div class="text">Dear founders, we started Froggodoggo because we know that financing your startup can be a pain in the butt. We also know that finding a side gig to finance your startup on other platforms (who shall go unnamed) is a battle against the price race to the bottom. Your work is worth more than 5$ an hour. In fact, we won't allow you to set your salary lower than $50/hour.</div>
+
+      <div class="flex-container-18">
+        <a href="/founder/apply" class="button">Apply as a Founder</a> 
+      </div>
+        <div class="text">Our goal with this is to help you get your company off the ground by matching you with companies that think along the same lines so you can make a buck on the side and still have enough time to work on your startup.</div>
+    </div>
+  </div>
+
+  <div class="flex-container-10">
+    <div class="flex-container-9-3">
+      <div class="flex-container-12">
+        <div class="image">
+          <img src="/images/fd_part_family.png" class="logo_2">
+        </div>
+        <h2>Super companies</h2>
+        <p>Companies who want to hire through Froggodoggo also need to apply and get accepted. We only want to work with companies who understand that hiring a founder part-time is a great value for them, and ready to pay for the good quality they get.</p>
+      </div>
+      <div class="flex-container-12">
+        <div class="image">
+          <img src="/images/fd_simple.png" class="logo_2">
+        </div>
+        <h2>Super process</h2>
+        <p>After you've applied and been accepted to Froggodoggo, you can set your own availability and preferences. There's no need to apply for projects - companies will come looking for you. Just sit back and relax. Or do whatever you want, we're not your mom.</p>
+      </div> 
+      <div class="flex-container-12">
+        <div class="image">
+          <img src="/images/fd_fair_wages.png" class="logo_2">
+        </div>
+        <h2>Super fair costs</h2>
+        <p>We think most platforms charge too much money and can be intransparent. We're upfront and fair: Froggodoggo will always be free for founders. We charge companies who hire you a $300 one-time matching fee and they also pay us 3% of your monthly salary on monthly basis. No worries, we don't deduct that from your salary, that's on top for them.</p>
+      </div>       
+    </div>
+  </div>
+
+</div>
+{{ end }}

@@ -30,6 +30,13 @@ We believe that pricing should be clear upfront and fair. We will never charge f
 
 We believe that people should be paid fairly for the work they do and value they provide, regardless of where they happen or decide to live. That's why we have a mandated minimum salary.
 
-We believe that startups are an important source of innovation, and that more people should start them. We hope that with this project, we can help more founders and indie hackers to get started.
+We believe that startups are an important source of innovation, and that more people should start them. We hope that with this project, we can help more founders and indie hackers get started.
 
-We believe in privacy and openness. We don't use cookies, and only track anonymous user data with <a href="https://simpleanalytics.io/" target="_blank" class="link">Simple Analytics</a>. We will soon start sharing openly our visitor and revenue data.
+## **Privacy and Openness**
+
+Privacy is a fundamental right, and we do everything we can to respect yours and encourage other companies to do the same.
+
+We don't use cookies or ad trackers. On this site, we track anonymous user data with Simple Analytics and share it openly with you. See our analytics <a href="https://simpleanalytics.com/froggodoggo.com" target="_blank" class="link">here</a>. In our web app, we track anonymous user data with Mixpanel (we will share it openly soon, Mixpanel doesn't have a default option for that, so we have to find a good solution).
+
+The code that runs this site is also open-source, check it out <a href="https://github.com/Buesi/froggodoggo-hugo" target="_blank" class="link">here</a>.
+

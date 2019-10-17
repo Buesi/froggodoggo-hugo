@@ -32,6 +32,7 @@ We believe that people should be paid fairly for the work they do and value they
 
 We believe that startups are an important source of innovation, and that more people should start them. We hope that with this project, we can help more founders and indie hackers get started.
 
+****
 ## **Privacy and Openness**
 
 Privacy is a fundamental right, and we do everything we can to respect yours and encourage other companies to do the same.

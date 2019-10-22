@@ -16,9 +16,3 @@
       <span class="a_no_hover">&copy; {{ now.Format "2006"}} Humbot Inc. </span>
     </div>
 </footer>
- {{ $js := resources.Get "js/main.js" }}
-  <script src="{{ $js.Permalink }}"></script> 
-  <script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
-  <noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
-</body>
-</html>

@@ -1,6 +1,6 @@
 document.addEventListener('click', function (event) {
 	if (event.target.matches('#openMenu')) {
-		document.getElementById('menuContainer').style.display = "flex";
+		document.getElementById('menuContainer').style.display = "block";
 		return;
 	}
 

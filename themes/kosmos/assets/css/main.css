@@ -59,6 +59,16 @@ h2 {
   margin: 0px;
 }
 
+h3 {
+  font-size: 20px;
+  font-weight: 300; 
+  line-height: 125%; 
+  color: #aaaaaa;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+/*  font-style: italic;*/
+}
+
 .text-header {
   font-weight: 400;
   color: #fff;
@@ -216,6 +226,15 @@ a:hover {
   justify-content: center;
 }
 
+.flex-container-14-2 {
+  padding: 5% 20% 40px 20%;
+  margin: 0px;
+  text-align: left;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .flex-container-15 {
   padding: 0px 0px 0px 0px;
   margin: 0px;
@@ -224,6 +243,17 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.flex-container-15-2 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
 }
 
 .flex-container-16 {
@@ -235,6 +265,7 @@ a:hover {
   align-content: flex-start;
   justify-content: flex-start;
 }
+
 
 .flex-container-18 {
   padding: 20px 0px 20px 0px;
@@ -307,6 +338,15 @@ a:hover {
   padding: 0px 0px 20px 0px;
 }
 
+.logo_3 {
+  padding: 20px 0px 20px 0px;
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .image {
   width: 100%;
   height: 100%;
@@ -356,6 +396,15 @@ a:hover {
   height: 300px
 }
 
+.video_2 {
+  padding: 20px 0px 20px 0px;
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Small Screens up to 610px*/
 
 @media screen and (max-width: 620px) {
@@ -371,6 +420,7 @@ a:hover {
   h1 {
     font-size: 45px;
     line-height: 130%;
+    text-align: center;
   }
 
   a { 
@@ -443,6 +493,10 @@ a:hover {
     width: 100%;
   }
 
+  .flex-container-14-2 {
+    padding: 5% 10% 40px 10%;
+  }
+
   .flex-container-20 {
     width: 94vw;
     background-color: white;
@@ -476,8 +530,20 @@ a:hover {
     display: none;
   }
 
+  .logo_3 {
+    max-width: 100%;
+  }
+
   .button {
     padding: 16px 30px;
+  }
+
+  .video {
+    max-width: 100%;
+  }
+
+  .video_2 {
+    max-width: 100%;
   }
 
   .flex-container-footer {
@@ -502,6 +568,10 @@ a:hover {
 
 @media screen and (min-width: 621px) and (max-width: 1200px) {
 
+  h1 {
+    text-align: center;
+  }
+  
   .flex-container-4 {
     justify-content: center;
     text-align: center;

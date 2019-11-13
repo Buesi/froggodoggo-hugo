@@ -1,0 +1,14 @@
+<div>
+  <h2>
+    {{ .Title }}
+  </h2>
+  <h3>
+    {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author}}
+  </h3>
+  <p>
+    {{ .Summary }}
+  <p>
+  <a href={{ .RelPermalink }} class="link">
+    Read More
+  </a>
+</div>

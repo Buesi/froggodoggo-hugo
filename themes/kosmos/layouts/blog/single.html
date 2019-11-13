@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="flex-container-13">
+  {{- partial "header.html" . -}}
+
+  <div class="flex-container-14-2">
+    <div class="flex-container-15-2">
+      <h1>{{ .Title }}</h1>
+      <div>
+        <h3>{{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author}}</h3>
+      </div>
+      <div>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

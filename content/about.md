@@ -39,5 +39,5 @@ Privacy is a fundamental right, and we do everything we can to respect yours and
 
 We don't use cookies or ad trackers. On this site, we track anonymous user data with Simple Analytics and share it openly with you. See our analytics <a href="https://simpleanalytics.com/froggodoggo.com" target="_blank" class="link">here</a>. In our web app, we track anonymous user data with Mixpanel (we will share it openly soon, Mixpanel doesn't have a default option for that, so we have to find a good solution).
 
-The code that runs this site is also open-source, check it out <a href="https://github.com/Buesi/froggodoggo-hugo" target="_blank" class="link">here</a>.
+The code bases that run this site and our web app (where the candidate browsing and matching happens) are also open-source, check it out <a href="https://github.com/Buesi/froggodoggo-hugo" target="_blank" class="link">here</a> and <a href="https://github.com/Buesi/froggodoggo" target="_blank" class="link">here</a>.
 

@@ -16,6 +16,17 @@ p {
   padding: 0px 0px 10px 0px;
 }
 
+ul {
+  font-size: 20px;
+  font-weight: 300; 
+  line-height: 125%; 
+  color: white;
+}
+
+li {
+   margin-bottom: 4px;
+}
+
 /*looks exactly like p but is a class, only no padding*/
 .text-1 {
   font-size: 20px;
